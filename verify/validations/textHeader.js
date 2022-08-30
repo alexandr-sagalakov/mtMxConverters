@@ -98,7 +98,7 @@ const textHeader = (str,filename) => {
   }
 
 
-  fs.writeFile(`./${filename}.json`, JSON.stringify(Object.fromEntries(map)), err => {
+  fs.writeFileSync(`./${filename}.json`, JSON.stringify(Object.fromEntries(map)), err => {
      
     // Checking for errors
     if (err) throw err; 
