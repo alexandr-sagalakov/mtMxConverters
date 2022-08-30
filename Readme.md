@@ -11,3 +11,6 @@ API ENDPOINTS
 ```http://localhost:5000/api/mtmx/upload/uploadMT``` (POST -> Upload MT Message)<br>
 ```http://localhost:5000/api/mtmx/verify/:fname``` (GET-> Validate MT Message)<br>
 ```http://localhost:5000/api/mtmx/getMX/:fname``` (GET -> Fetch MX Message)
+
+
+The app has also been deployed on AWS on "http://3.238.172.106:5000/"
